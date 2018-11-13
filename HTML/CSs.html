@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<DIV id='box 1'></DIV>
+	<STYLE type='text/css'>
+	#triangle-up {
+		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-bottom: 100px solid red;
+		position: relative;
+		left: 100px;
+	}
+	#triangle-down {
+		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-top: 100px solid red;
+		position: absolute;
+		left: 100px;
+	}
+	
+	#triangle-left {
+		width: 0;
+		height: 0;
+		border-top: 50px solid transparent;
+		border-right: 100px solid red;
+		border-bottom: 50px solid transparent;
+		position: absolute;
+	}
+	#triangle-right {
+		width: 0;
+		height: 0;
+		border-top: 50px solid transparent;
+		border-left: 100px solid red;
+		border-bottom: 50px solid transparent;
+		position: relative;
+		left: 100px;
+	}
+	#triangle-right {
+		width: 0;
+		height: 0;
+		border-top: 50px solid transparent;
+		border-left: 100px solid red;
+		border-bottom: 50px solid transparent;
+		position: relative;
+		left: 200px;
+	}
+	#triangle-right:hover{
+		border-left: 100px solid blue;
+	}
+	#gamepad{
+		position: absolute;
+		left: 40%
+		top: 30%;
+		transform: scale(0.7);
+	}
+	</STYLE>
+</HEAD>
+</HTML>
+<BODY>
+	<DIV id='gamepad'>
+		<DIV id='triangle-up'></DIV>
+		<DIV id='triangle-left'></DIV>
+		<DIV id='triangle-right'></DIV>
+		<DIV id='triangle-down'></DIV>
+	</DIV>
+
+</BODY>
+</HTML>
